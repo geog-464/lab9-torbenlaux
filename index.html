@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>lab9</title>
+        <title>lab9-torbenlaux</title>
         
 		<!--put your external stylesheet links here-->
 		<link rel="stylesheet" href="css/styles.css">
@@ -14,18 +14,36 @@
 
 		<!--you can also place internal styles here; you would place these within <style> tags-->
     </head>
-
+    <p> Lab 9 - Torben Laux, sorry it's late...but its a cool bean assignment! </p>
     <body>
         <!--put your initial page content here-->
 		<div id="div1">
+
+		<p> Question 2: The style property returns the values of an element's style attribute. The style property returns a CSSStyleDeclaration object. </p>
+
+		<p> Question 4: Feature is the GeoJSON data for that feature, including its geometry and properties. Layer is the graphical representation of the feature on a map. Feature and layer in functions to customize the popup content or add other interactions or styling to the layer.</p>	
+
+		<p> Question 5: layer.options.fill is used to set the styling options for the layer's fill color, opacity, and things like that,  layer.getLatLng() is used to retrieve the geographical coordinates of the layer's center point. </p>
+
+		<p> Question 6: Whappened? when refreshing the site, the circles got much larger and took over the map as well as the fill colour disapeared making them clear. </p>
+
+		<select class="li-nav" name="mapdropdown" id="mapdropdown" onChange="loadMap(this.value);">
+			<option value="map0" selected="selected">Load a map</option>
+			<option value='mapa'>Map A</option>
+			<option value='mapb'>Map B</option>
+		</select>
+
+			
 		</div>
+
+
 		<div id="mapdiv">
 			
 		</div>
 		
         <!--you can also use this space for internal scripts; you would place these within <script> tags-->
 
-        
+      
 		
 		<!--put your external script links here-->
         <script type="text/javascript" src="js/main.js"></script>
